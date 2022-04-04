@@ -38,6 +38,11 @@ button.onclick = function() {
   console.log(box2);
   if (box2.hidden === true) box2.hidden = false;
   else box2.hidden = true;
+
+  let box1 = document.getElementsByClassName('box-1')[0];
+  console.log(box1);
+  if (box1.hidden === true) box1.hidden = false;
+  else box1.hidden = true;
   // let box2 = document.getElementsByClassName('box-2')[0];
   //   console.log(box2);
   //   box2.style.background = getRandomColor();
