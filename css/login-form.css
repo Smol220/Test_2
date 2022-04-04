@@ -30,6 +30,9 @@ form input{
   margin-bottom: 10px;
   border-radius: 10px;
 }
+.password-err {
+  color: red;
+}
 .recover{
   text-align: right;
   font-size: 0.8rem;
