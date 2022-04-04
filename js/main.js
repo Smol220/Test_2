@@ -36,7 +36,8 @@ button.onclick = function() {
   button.style.backgroundColor = "purple";
   let box2 = document.getElementsByClassName('box-2')[0];
   console.log(box2);
-  box2.hidden = true;
+  if (box2.hidden === true) box2.hidden = false;
+  else box2.hidden = true;
   // let box2 = document.getElementsByClassName('box-2')[0];
   //   console.log(box2);
   //   box2.style.background = getRandomColor();
