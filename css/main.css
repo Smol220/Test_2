@@ -1,0 +1,81 @@
+.wrapper-1 {
+    width: 100vw;
+    height: 50vh;
+    background-color: slategray;
+    position: relative;
+}
+
+.box-1 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%);
+
+}
+
+.wrapper-2 {
+    width: 100vw;
+    height: 50vh;
+    background-color: skyblue;
+    position: relative;
+}
+
+.box-2 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 0 auto;
+    /* position: absolute; */
+    top: 0
+}
+
+.wrapper-3 {
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(125, 199, 40);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.box-3 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(27, 92, 129);
+}
+
+.wrapper-4 {
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(48, 51, 44);
+    position: relative;
+    display: inline-grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.box-4 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(27, 92, 129);
+}
+
+.button-1 {
+    width: 120px;
+    height: 60px;
+    /* background: #7fee1d; */
+    border-radius: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button-text{
+    color: aliceblue;
+}
